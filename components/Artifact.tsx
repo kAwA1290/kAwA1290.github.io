@@ -1,15 +1,5 @@
 import React from 'react'
 
-//const Artifact = ({ link, imagePath, title}) => {
-//	return (
-//		<a href={link}>
-//			<img src={imagePath} className="w-full h-36 md:h-48 object-cover cursor-pointer"/>
-//			<div className="">
-//				<p>{title}</p>
-//			</div>
-//		</a>
-//	)
-//}
 const Artifact = ({ link, imagePath, title, detail }) => {
    return (
       <a href={link} target="_blank" rel="noopener noreferrer" className="border-2 border-stone-700 overflow-hidden w-full shadow-lg">
