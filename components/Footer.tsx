@@ -12,4 +12,5 @@ const Footer = () => {
 }
 
 export default Footer;
+
 /*<img src={github_picture.src} className="w-full h-36 md:h-48 object-cover cursor-pointer"/>*/

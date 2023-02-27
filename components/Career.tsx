@@ -9,7 +9,7 @@ const Career = () => {
 		title: "42Tokyo入学",
 		belong:"個人",
 		belongColor: "bg-blue-300",
-		detail: "C言語標準関数の再実装を通して学んでいます。正規の関数と完全に等しい動作を追い求める中で、コーナーケースやメモリーの扱いに詳しくなりました。"
+		detail: "C言語でコンピュータを学んでいます。"
 	},
 	{
 		id: "20229",
@@ -17,7 +17,7 @@ const Career = () => {
 		title: "KOSEN Programming Contest",
 		belong: "部活動",
 		belongColor: "bg-red-300",
-		detail: "ReactNativeを用いて、チームでスマホアプリ「ARATAG」を開発しました。コロナ禍で満足に遊べない子どもたちに向けた、GPSを用いて離れた場所にいる人とでも近くにいるように遊べるアプリケーションです。"
+		detail: "チームで、ReactNativeを使ってスマホアプリ「ARATAG」を開発しました。コロナ禍で満足に遊べない子どもたちに向けた、GPSを用いて離れた場所にいる人と外で遊べるアプリケーションです。"
 	},
 	{
 		id: "20227",
@@ -25,7 +25,7 @@ const Career = () => {
 		title: "42Tokyo受験",
 		belong: "個人",
 		belongColor: "bg-blue-300",
-		detail: "初めて出会った人達と教え合いながら、4週間のコーディング試験を受けました。"
+		detail: "親と同年代から高校生まで、幅広い年齢の人達と教え合いながら4週間のコーディング試験を受けました。"
 	},
 	{
 		id: "20219",
@@ -33,7 +33,7 @@ const Career = () => {
 		title: "Civictech Challenge Cup",
 		belong: "部活動",
 		belongColor: "bg-red-300",
-		detail: "Vue.jsを用いて、チームで開発しました。レシートの情報から冷蔵庫内の食品を管理するアプリケーション「Pantry Manager」を開発しました。"
+		detail: "チームで、Vue.jsを使ってレシートの情報から冷蔵庫内の食品を管理するアプリケーション「Pantry Manager」を開発しました。"
 	}
 	]
 	return (
@@ -47,4 +47,5 @@ const Career = () => {
 		</div>
 	)
 }
+
 export default Career;
