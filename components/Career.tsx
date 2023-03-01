@@ -15,7 +15,7 @@ const Career = () => {
 		id: "20229",
 		time: "2022/9",
 		title: "KOSEN Programming Contest",
-		belong: "部活動",
+		belong: "部活",
 		belongColor: "bg-red-300",
 		detail: "チームで、ReactNativeを使ってスマホアプリ「ARATAG」を開発しました。コロナ禍で満足に遊べない子どもたちに向けた、GPSを用いて離れた場所にいる人と外で遊べるアプリケーションです。"
 	},
@@ -31,19 +31,21 @@ const Career = () => {
 		id: "20219",
 		time: "2021/9",
 		title: "Civictech Challenge Cup",
-		belong: "部活動",
+		belong: "部活",
 		belongColor: "bg-red-300",
 		detail: "チームで、Vue.jsを使ってレシートの情報から冷蔵庫内の食品を管理するアプリケーション「Pantry Manager」を開発しました。"
 	}
 	]
 	return (
 		<div className="flex flex-col items-center my-5">
-			<p className="text-3xl text-stone-150 font-semibold mb-5">History</p>
-			{
-				Careers.map(item => (
-					<Timeline key={item.id} time={item.time} title={item.title} belong={item.belong} belongColor={item.belongColor} detail={item.detail}/>
-				))
-			}
+			<div className="w-2/3 md:w-2/5 align-center">
+				<p className="text-3xl text-stone-150 font-semibold mb-5 text-center">History</p>
+				{
+					Careers.map(item => (
+						<Timeline key={item.id} time={item.time} title={item.title} belong={item.belong} belongColor={item.belongColor} detail={item.detail}/>
+					))
+				}
+			</div>
 		</div>
 	)
 }

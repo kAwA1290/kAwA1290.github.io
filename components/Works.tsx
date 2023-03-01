@@ -8,7 +8,7 @@ const Works = () => {
 	return (
 		<div className="flex flex-auto flex-col items-center my-5">
 			<p className="text-3xl text-stone-150 font-semibold mb-5">Works</p>
-			<div className="flex flex-col md:flex-row items-stretch w-1/2">
+			<div className="flex flex-col md:flex-row items-stretch w-2/3">
 				<Artifact link="https://github.com/kAwA1290/AirMouse" imagePath={demo_gif.src} title="AirMouse" detail="非接触で未来的なマウスはあなたの手です。Powered by mediapipe."/>
 				<Artifact link="https://github.com/kAwA1290/myclib" imagePath={clib_picture.src} title="Myclib" detail="BSD Manualに準拠しています。(一部を除く)"/>
 
